@@ -1,0 +1,923 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	height: 88px;
+	line-height: 88px;
+	justify-content: space-between;
+	background-color: #f9fbfe;
+	width: 100%;
+	top: 0;
+	position: fixed;
+}
+
+.header-img {
+	width: 20%;
+	margin-left: 2em;
+}
+
+nav {
+	width: 40%;
+}
+
+.header-list {
+	display: flex;
+	justify-content: space-around;
+}
+
+.header-item {
+	list-style: none;
+	color: #2b546a;
+}
+
+.subsuku {
+	color: #fff;
+	padding: 16px;
+	background-color: rgb(48, 200, 214);
+	border-radius: 5px;
+}
+
+.top-title {
+	text-align: center;
+	padding: 100px;
+}
+
+h1 {
+	font-size: 48px;
+	color: #2b546a;
+	margin-bottom: 1em;
+}
+
+main {
+	padding-top: 180px;
+}
+
+.ex-img {
+	width: 80%;
+	margin: 0 auto;
+}
+
+img {
+	width: 100%;
+}
+
+.user-count {
+	text-align: center;
+	display: inline-block;
+	font-weight: bold;
+	color: #8491a5;
+}
+
+.count {
+	font-weight: bold;
+	font-size: 18px;
+	color: #2b546a;
+	letter-spacing: .03em;
+}
+
+.country {
+	text-align: center;
+	display: inline-block;
+	font-weight: bold;
+	color: #8491a5;
+	margin-bottom: 4em;
+}
+
+.now-start {
+	display: block;
+	padding: 16px;
+	width: 200px;
+	background-color: #30C8D6;
+	margin: 0 auto;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.js-area {
+	height: 500px;
+	line-height: 500px;
+	text-align: center;
+	background-color: #88e7ce;
+	margin-top: 4em;
+}
+
+.maker-box {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	border: solid 1px;
+}
+
+.out-beginner {
+	font-size: 48px;
+	color: #2b546a;
+	margin: 2em 0;
+}
+
+.explanation-txt {
+	margin-bottom: 5em;
+	color: #8491a5;
+	line-height: 2em;
+}
+
+
+.study {
+	font-size: 32px;
+	color: #2b546a;
+	margin: 1em 0;
+}
+
+.explanation-img {
+	margin-top: 2em;
+}
+
+.practice {
+	font-size: 32px;
+	color: #2b546a;
+	margin: 1em 0;
+}
+
+.road-st {
+	font-size: 32px;
+	color: #2b546a;
+	margin: 1em 0;
+}
+
+.story-box {
+	text-align: center;
+	background-color: #2b546a;
+	margin: 5em 0;
+	padding: 100px 0;
+
+}
+
+.story-title {
+	font-size: 32px;
+	margin-bottom: 1em;
+	color: #fff;
+
+}
+
+.member-box {
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-gap: 32px;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
+
+.member {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #fff;
+	border-radius: 30px;
+}
+
+.square-img {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	border-radius: 50px;
+	line-height: 100px;
+}
+
+.user-name {
+	margin-top: 2em;
+}
+
+.member-title {
+	font-weight: bold;
+	color: #2b546a;
+	padding: 0 25px;
+	margin-top: 2em;
+}
+
+.country {
+	font-size: 12px;
+}
+
+.intro {
+	color: #fff;
+}
+
+.more-story {
+	padding: 20px 70px;
+	color: #2b546a;
+	background-color: #fff;
+	margin-top: 2em;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.more {
+	padding: 20px 50px;
+	color: #fff;
+	background-color: #30CBD6;
+}
+
+.lesson-box {
+	width: 90%;
+	margin: 0 auto;
+	padding: 200px 0;
+	background-color: #f0f4f9;
+	display: flex;
+	border-radius: 10px;
+}
+
+.lesson-txt-area {
+	width: 45%;
+	order: 2;
+}
+
+.match {
+	font-size: 32px;
+	color: #2b546a;
+	text-align: right;
+	text-align: initial;
+}
+
+.move {
+	width: 50%;
+	order: 1;
+}
+
+.lesson-course {
+	font-size: 16px;
+	color: #8491a5;
+	text-align: initial;
+	margin-top: 2em;
+}
+
+.free-box {
+	width: 43%;
+	background-color: #f0f4f9;
+	display: inline-block;
+	margin-right: 3em;
+	padding: 50px 0;
+	margin-top: 3em;
+	border-radius: 10px;
+}
+
+.free-mem {
+	font-size: 32px;
+	color: #2b546a;
+
+}
+
+.free-txt {
+	font-size: 16px;
+	color: #8491a5;
+	margin-top: 2em;
+	margin-bottom: 3em;
+}
+
+.lesson-txt {
+	font-weight: bold;
+	color: #2b546a;
+	margin-bottom: 1em;
+}
+
+.yen {
+	font-size: 32px;
+}
+
+.plus-mem {
+	font-size: 32px;
+	color: #2b546a;
+}
+
+.plus-box {
+	width: 43%;
+	background-color: #f7edad;
+	display: inline-block;
+	padding: 50px 0;
+	border-radius: 10px;
+}
+
+.plus-txt {
+	font-size: 16px;
+	color: #8491a5;
+	margin-top: 2em;
+	margin-bottom: 5.6em;
+}
+
+.all-lesson {
+	font-weight: bold;
+	color: #2b546a;
+	margin-bottom: 1em;
+}
+
+.without-tax {
+	font-size: 18px;
+}
+
+.fee {
+	font-weight: bold;
+	color: #2b546a;
+	font-size: 48px;
+}
+
+
+.and-app {
+	font-size: 32px;
+	color: #2b546a;
+	margin-top: 4em;
+	margin-bottom: 1em;
+}
+
+.app-des-box {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #90c3f0;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 2em;
+	max-width: 1000px;
+	padding: 64px;
+
+}
+
+.a-box {
+	width: 50%;
+	text-align: initial;
+	position: relative;
+}
+
+.app-img {
+	width: 50%;
+}
+
+.every-title {
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 1em;
+	margin-top: 2em;
+}
+
+.every-des {
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 2em;
+}
+
+.only-app {
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 1em;
+}
+
+.only-des {
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 2em;
+}
+
+.application {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.application-item {
+	list-style: none;
+	margin-right: 1em;
+}
+
+
+.produce {
+	font-size: 32px;
+	color: #2b546a;
+}
+
+.start-title {
+	font-size: 32px;
+	color: #2b546a;
+	margin-bottom: 1em;
+}
+
+.produce-box {
+	padding: 100px 0;
+}
+
+.produce-title {
+	font-size: 32px;
+	color: #2b546a;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.produce-txt {
+	font-size: 16px;
+	color: #8491a5;
+	line-height: 2;
+}
+
+.start-box {
+	padding: 120px;
+	background-color: #f9fbfe;
+}
+
+.start-txt {
+	font-size: 16px;
+	color: #8491a5;
+	margin-bottom: 5em;
+}
+
+.download {
+	width: 35%;
+}
+
+.progate {
+	font-size: 25px;
+	margin-bottom: 2em;
+}
+
+.download-link {
+	color: #183c61;
+}
+
+.service-list {
+	width: 20%;
+}
+
+.service {
+	font-size: 17px;
+	color: #2b546a;
+
+}
+
+.service-item {
+	font-size: 12px;
+	color: #6783a0;
+	margin-top: 1em;
+}
+
+.support {
+	font-size: 17px;
+	color: #2b546a;
+}
+
+.support-list {
+	width: 20%;
+}
+
+.support-item {
+	font-size: 12px;
+	color: #6783a0;
+	margin-top: 1em;
+}
+
+.sns {
+	font-size: 17px;
+	color: #2b546a;
+	margin-top: 2em;
+}
+
+.sns-item {
+	font-size: 12px;
+	color: #6783a0;
+	margin-top: 1em;
+}
+
+.corporation-service-list {
+	width: 30%;
+	margin-right: 15px;
+
+
+}
+
+.corporation-service {
+	font-size: 17px;
+	color: #2b546a;
+	margin-bottom: 1em;
+}
+
+.corporation-service-txt {
+	max-width: 200px;
+	font-size: 13px;
+	padding: 20px 23px;
+	background-color: #f9fbfe;
+	color: #8491a5;
+	margin-top: 2em;
+}
+
+.sns-app {
+	width: 20%;
+	padding: 50px 0;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.sns-app-item {
+	list-style: none;
+}
+
+.twitter {
+	color: #00aced;
+}
+
+.facebook {
+	color: #0063dc;
+}
+
+.note {
+	color: #5ae628;
+}
+
+.copyright {
+	font-size: 10px;
+	margin-top: 5em;
+	color: #8491a5;
+}
+
+footer {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 100px;
+	margin: 0 auto;
+	border-top: solid 1px #eee;
+	padding-top: 3em;
+}
+
+.business {
+	color: #000;
+	box-shadow: rgba(0, 0, 0, 0.12) 0 1px 6px, rgba(0, 0, 0, 0.12) 0 1px 4px;
+	border-radius: 2px;
+	padding: 20px 15px;
+	max-width: 248px;
+}
+
+.f-download {
+	width: 30%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.download {
+	margin-left: 5%;
+}
+
+.download-link {
+	margin-bottom: 1em;
+}
+
+/*ipad*/
+/*レスポンシブ*/
+@media screen and (max-width:768px) {
+	nav {
+		width: 60%;
+	}
+
+	.free-box {
+		width: 46%;
+	}
+
+	.plus-box {
+		width: 46%;
+	}
+
+	.member-box {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	footer {
+		width: 100%;
+	}
+
+	.f-download {
+		display: block;
+		width: 45%;
+	}
+
+	.download {
+		margin: 0 15px;
+	}
+
+	.progate {
+		font-size: 14px;
+	}
+
+	.lesson-box {
+		width: 100%;
+	}
+}
+
+/*スマホ*/
+
+@media screen and (max-width:480px) {
+	header {
+		height: 64px;
+	}
+
+	.header-img {
+		line-height: 64px;
+	}
+
+	.header-item {
+		font-size: 12px;
+		line-height: 64px;
+	}
+
+	.top-title {
+		padding: 0;
+
+	}
+
+	.header-item:nth-child(1) {
+		display: none;
+	}
+
+	.maker-box {
+		width: 100%;
+		text-align: initial;
+	}
+
+	h1 {
+		font-size: 24px;
+	}
+
+	.user-count {
+		font-size: 11px;
+	}
+
+	.js-area {
+		height: 300px;
+		line-height: 300px;
+	}
+
+	.count {
+		font-size: 12px;
+	}
+
+	.now-start {
+		font-size: 12px;
+		width: 100px;
+	}
+
+	.out-beginner {
+		font-size: 24px;
+		padding-left: 5%;
+	}
+
+	.study {
+		font-size: 18px;
+		text-align: left;
+		padding-left: 5%;
+	}
+
+	.explanation-txt {
+		text-align: initial;
+		font-size: 11px;
+		padding: 0 5%;
+	}
+
+	.res-br {
+		display: none;
+	}
+
+	.ex-img {
+		width: 100%;
+	}
+
+	.practice {
+		font-size: 18px;
+		padding-left: 5%;
+	}
+
+	.road-st {
+		font-size: 18px;
+		padding-left: 5%;
+	}
+
+	.story-title {
+		font-size: 18px;
+		margin: 0 auto;
+	}
+
+	.member-box {
+		grid-template-columns: 1fr;
+	}
+
+	.member {
+		display: grid;
+		grid-template-rows: repeat(2, auto);
+		grid-template-columns: auto 1fr;
+	}
+
+	.member-title {
+		font-size: 14px;
+		grid-column: 1/3;
+		grid-row: 1;
+		text-align: initial;
+	}
+
+	.user-name {
+		text-align: left;
+		margin-top: 2.4em;
+	}
+
+	.more-story {
+		font-size: 12px;
+		text-align: center;
+		padding: 16px;
+	}
+
+	.intro {
+		text-align: center;
+		font-size: 12px;
+		padding: 0 5%;
+	}
+
+	.free-box {
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 1.5em;
+	}
+
+	.free-mem {
+		font-size: 18px;
+	}
+
+	.free-txt {
+		font-size: 12px
+	}
+
+	.lesson-txt {
+		font-size: 12px;
+	}
+
+	.yen {
+		font-size: 24px;
+	}
+
+	.fee {
+		font-size: 32px;
+	}
+
+	.plus-box {
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 1.5em;
+	}
+
+	.plus-mem {
+		font-size: 18px;
+	}
+
+	.plus-txt {
+		font-size: 12px;
+		margin-bottom: 3em;
+	}
+
+	.all-lesson {
+		font-size: 12px;
+	}
+
+	.without-tax {
+		width: 12px;
+	}
+
+	.app-des-box {
+		padding: 32px 7.3% 40px;
+		flex-direction: column-reverse;
+	}
+
+	.app-img {
+		width: 100%;
+	}
+
+	.application {
+		justify-content: space-around;
+	}
+
+	.a-box {
+		width: 100%;
+	}
+
+	.and-app {
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.match {
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.lesson-course {
+		font-size: 12px;
+		text-align: center;
+		margin-top: 1em;
+
+	}
+
+	.lesson-box {
+		display: block;
+		width: 90%;
+	}
+
+	.lesson-txt-area {
+		width: 100%;
+	}
+
+	.move {
+		width: 100%;
+		text-align: center;
+		margin-top: 5em;
+	}
+
+	.produce-box {
+		text-align: center;
+		padding: 60px 0;
+	}
+
+	.produce-title {
+		text-align: initial;
+		font-size: 18px;
+		margin-left: 8%;
+	}
+
+	.produce-txt {
+		font-size: 12px;
+		text-align: initial;
+		padding: 30px;
+	}
+
+	.start-box {
+		text-align: center;
+		padding: 14.933% 6%;
+	}
+
+	.start-title {
+		font-size: 18px;
+	}
+
+	.start-txt {
+		font-size: 12px;
+		margin-bottom: 2em;
+	}
+
+	.more {
+		font-size: 12px;
+		padding: 16px;
+		border-radius: 5px;
+	}
+
+	.sns-app {
+		width: 50%;
+	}
+
+	footer {
+		display: block;
+	}
+
+	dl {
+		width: 100% !important;
+		text-align: center;
+	}
+
+	.f-download {
+		display: inline-block;
+		width: 35%;
+		vertical-align: middle;
+	}
+
+	.download {
+		margin: 0;
+	}
+
+	.service-list {
+		margin: 2em 0;
+	}
+
+	.copyright {
+		display: none;
+	}
+
+	.corporation-service-list {
+		margin-top: 2em;
+	}
+
+	.corporation-service-txt {
+		margin: 0 auto;
+	}
+
+	.business {
+		margin: 0 auto;
+		margin-bottom: 2em;
+	}
+}
